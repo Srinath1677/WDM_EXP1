@@ -1,5 +1,6 @@
 ### EX1 Creation of Employee, Weather dataset in WEKA Data Mining and Analysis Tool and perform Preprocessing
-### DATE: 05/08/2026
+### Name :Srinath YG
+### DATE:5-08-2026
 ### AIM: 
   To Create Employee, Weather dataset in WEKA Data Mining and Analysis Tool and perform preprocessing
 ### PROCEDURE: 
@@ -13,7 +14,7 @@ Employee Data
 @relation employee
 @attribute name {x,y,z,a,b}
 @attribute id numeric
-@attribute salary {low,medium,high} 
+@attribute salary {low,medium,high}
 @attribute exp numeric
 @attribute gender {male,female}
 @attribute phone numeric
@@ -53,16 +54,13 @@ rainy,75.0,80.0,false,yes
 8) Click on edit button which shows employee table on weka.
 
 ### OUTPUT:
-Employee Data :
+### EMPLOYEE DATA
 
-<img width="630" height="275" alt="Screenshot 2026-01-23 134931" src="https://github.com/user-attachments/assets/3131dfa2-c4b0-4291-9703-f6d34681eeb9" />
-
-
-Weather Table :
-
-<img width="595" height="366" alt="Screenshot 2026-01-23 135021" src="https://github.com/user-attachments/assets/de1e7dfc-ab09-42a8-aca6-0ccd16f356e8" />
+<img width="1228" height="726" alt="image" src="https://github.com/user-attachments/assets/5c370b6e-426c-4ecd-bea5-046470a5d5db" />
 
 
+### WEAHER DATA
+<img width="1231" height="732" alt="image" src="https://github.com/user-attachments/assets/a24ce350-adb8-4ae9-ae9f-f90f957dd35e" />
 
 ### PREPROCESSING
 ### Procedure:
@@ -73,3 +71,67 @@ Weather Table :
 4) Select Weather.arff file and click on open.
 5) Click on Choose button and select the Filters option.
 6) In Filters, we have Supervised and Unsupervised data.
+7) Click on Unsupervised data.
+8) Select the attribute Add.
+9) A new window is opened.
+10) In that we enter attribute index, type, data format, nominal label values for Climate.
+11) Click on OK.
+12) Press the Apply button, then a new attribute is added to the Weather Table.
+13) Save the file.
+14) Click on the Edit button, it shows a new Weather Table on Weka.
+
+### OUTPUT:
+### EMPLOYEE DATA
+<img width="1222" height="735" alt="image" src="https://github.com/user-attachments/assets/8c82e5e1-2d47-4005-9184-84546327f8c4" />
+
+
+### WEAHER DATA
+ <img width="1232" height="742" alt="image" src="https://github.com/user-attachments/assets/405415dd-1f90-43b5-96cf-df16037cc02a" />
+
+
+### 2) Remove -> Pre-Processing Technique:
+
+1) Start -> Programs -> Weka-3-4 -> Weka-3-4
+2) Click on explorer.
+3) Click on open file.
+4) Select Weather.arff file and click on open.
+5) Click on Choose button and select the Filters option.
+6) In Filters, we have Supervised and Unsupervised data.
+7) Click on Unsupervised data.
+8) Select the attribute Remove.
+9) Select the attributes windy, play to Remove.
+10) Click Remove button and then Save.
+11) Click on the Edit button, it shows a new Weather Table on Weka.
+
+### OUTPUT:
+### EMPLOYEE DATA
+<img width="1228" height="726" alt="image" src="https://github.com/user-attachments/assets/5b00638c-0a96-43a3-9d29-f529995bc5fa" />
+
+### WEAHER DATA
+<img width="1231" height="732" alt="image" src="https://github.com/user-attachments/assets/c34bdf15-5c38-4ac2-91a6-28ea985d5ea1" />
+
+
+### Normalize -> Pre-Processing Technique:
+
+1) Start -> Programs -> Weka-3-4 -> Weka-3-4
+2) Click on explorer.
+3) Click on open file.
+4) Select Weather.arff file and click on open.
+5) Click on Choose button and select the Filters option.
+6) In Filters, we have Supervised and Unsupervised data.
+7) Click on Unsupervised data.
+8) Select the attribute Normalize.
+9) Select the attributes temparature, humidity to Normalize.
+10) Click on Apply button and then Save.
+11) Click on the Edit button, it shows a new Weather Table with normalized values on Weka.
+
+### OUTPUT:
+### EMPLOYEE DATA
+<img width="1232" height="738" alt="image" src="https://github.com/user-attachments/assets/3e9c9c98-6661-4a41-b645-d77e27443ee3" />
+
+### WEAHER DATA
+<img width="1241" height="737" alt="image" src="https://github.com/user-attachments/assets/1fec7255-66ad-4fb5-8068-6968d8a37a5a" />
+
+
+### RESULT: 
+  Thus the program for generating employee and weather datasets has been developed, and preprocessing has been accomplished successfully.
